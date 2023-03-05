@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+.nav{
+    display:flex;
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px 10px;  
+    width: 50%;  
+    display: flex;
+    
+    
+    justify-content: space-around;
+}
+
+.nav ul li{
+    margin: 5px 10px;
+    font-size: 15px;
+    justify-items: center;
+}
+
+.logo{
+    color: wheat;
+    width:20%;
+    
+}
+.search{
+    width: 30%;
+    display: flex;
+    height: 21px;
+    padding: 5px;
+}
+
+
+#here{
+    color: rgb(10, 176, 176);
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    
+    margin: 20px;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    
+}
+.del{
+    display: inline-block;
+    height:450px;
+    margin: 30px;
+    background-image: url(img/delivery.jpg);
+}
+.del h2{
+    margin: 20px;
+    color: rgb(230, 168, 86);
+    font-size: 25px;
+}
+.del p{
+    font-weight: 550;
+    color:rgb(0, 0, 0);
+    word-spacing: 5px;
+    margin: 20px;
+}
+.d{
+    width: 30%;
+}
+.social {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%
+}
+
+
+    
+</style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo"><img src="img/logo.jpg" alt="logo" width="90px"></div>
+        <ul>    
+            <li><a href="index.html">Home</a></li>
+            <li><a  href="about.html">About</a></li>
+            <li><a id="here">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    
+        <div class="search">
+            <input type="text" name="search" id="place" placeholder="search" style="width: 80%;
+                                                                               padding:10px;">
+            <img src="img/magnifying-glass-solid.svg" alt="icon" width="20px">
+        </div>
+        </div>
+        <div class="del">
+                <h1>We provide many services</h1>
+                <div class="d">
+                <h2>home delivery</h2>
+                <p>We provide many services in which one of them is home delivery throughout the country.</p>
+            </div>
+        </div>
+        <footer>
+            <p>
+            payment methods:</p>
+            
+            <img src="img/master.jpg" alt="card" width="100px"  height="50px">
+            <img src="img/cod.jpg" alt="COD"  width="100px"  height="50px">
+    
+            <p style ="font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;">copry right reserved</p>
+            
+        </footer>
+        <p style="width:100%;
+            text-align: center;
+            font-size:25px;
+            font-weight:550">social media</p>
+    <div class="social">
+        <a id="ins" href="https://www.instagram.com/gucci/"> <img src="img/instagram.svg" alt="" width="60px"
+                style="padding-left:300px;"></a>
+        <a id="fac" href="https://www.facebook.com/officialguchi1/"> <img src="img/facebook.svg" alt="facebook"
+                width="60px"></a>
+        <a id="guc" href="https://www.gucci.com/uk/en_gb/"><img src="img/guchi.jpg" alt="website of guchi"
+                width="100px"></a>
+    </div>
+</body>
+</html>

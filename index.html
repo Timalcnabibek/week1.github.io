@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            display:flex;
+            
+        }
+        a{
+            text-decoration: none;
+            color:rgb(0, 0, 0);
+            margin: 5px 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .nav ul{
+            list-style: none;
+            padding: 0px;
+            margin: 0px 10px;  
+            width: 50%;  
+            display: flex;
+            
+            
+            justify-content: space-around;
+        }
+
+        .nav ul li{
+            margin: 5px 10px;
+            font-size: 15px;
+            justify-items: center;
+        }
+
+        .logo{
+            color: wheat;
+            width:20%;
+            float:right
+        }
+        .search{
+            width: 20%;
+            display: flex;
+            height: 21px;
+            padding: 5px;
+        }
+        
+.i{
+    margin-top:3px ;
+    float: right
+}
+#place{
+    border-radius: 5px 5px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    padding-left:20px; 
+    font-size:35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    font-weight: bold ;
+}
+
+.new{
+    display: flex;
+    
+}
+.p{
+    color: rgb(0, 0, 0);
+    margin:20px;
+    width:50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.carage{
+    width: 50%;
+}
+#small{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+#here{
+    color: rgb(2, 160, 160);
+}
+.btn{
+    margin: 30px;
+    width: 30%;
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgb(247, 247, 117);
+    border-radius: 20px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+body{
+    background-image: url(img/a.jpg);
+}
+.social {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo"><img src="img/logo.jpg" alt="logo" width="90px"></div>
+        <ul>    
+            <li><a id="here" href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" name="search" id="place" placeholder="search" style="width: 80%;
+                                                                               padding:10px;">
+            <div class="i">
+            <img src="img/magnifying-glass-solid.svg" alt="logo" width="20px">
+        </div>
+        </div>
+    </div>
+    <br>
+    <h1>This is the shopping junction </h1><br><br>
+    <div class="new">
+    <img src="img/sh.jpg" alt="shopping" class="carage" width="300px">
+    <p class="p">u can find all things from your favorite brands. <br><br><span id="small"> You can get everything from head to toe and with many advantages too if u have memberships </span></p>
+
+    </div>
+    <br><br>
+    <button class="btn">learn more</button>
+    <footer>
+        <p>
+        payment methods:</p>
+        
+        <img id="card" src="img/master.jpg" alt="card" width="100px"  height="50px">
+        <img src="data:image/jpeg;base64,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" alt="COD"  width="100px"  height="50px">
+
+        <p>copry right reserved</p>
+        
+    </footer>
+    <p style="width:100%;
+            text-align: center;
+            font-size:25px;
+            font-weight:550">social media</p>
+    <div class="social">
+        <a id="ins" href="https://www.instagram.com/gucci/"> <img src="img/instagram.svg" alt="" width="60px"
+                style="padding-left:300px;"></a>
+        <a id="fac" href="https://www.facebook.com/officialguchi1/"> <img src="img/facebook.svg" alt="facebook"
+                width="60px"></a>
+        <a id="guc" href="https://www.gucci.com/uk/en_gb/"><img src="img/guchi.jpg" alt="website of guchi"
+                width="100px"></a>
+    </div>
+</body>
+</html>
